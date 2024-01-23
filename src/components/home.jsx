@@ -85,9 +85,9 @@ const Home = () => {
               <td>{row.timeUploaded}</td>
               <td>{row.status}</td>
               <td>
-                <a href='#' ><FontAwesomeIcon icon={faEye} title="View" style={{ marginRight: '10px', cursor: 'pointer' }} /></a>
-                <a href='#' ><FontAwesomeIcon icon={faTrash} title="Delete" style={{ marginRight: '10px', cursor: 'pointer' }} /></a>
-                <a href='#' ><FontAwesomeIcon icon={faEllipsisH} title="More Options" style={{ cursor: 'pointer' }} /></a>
+                <a href='#' ><FontAwesomeIcon icon={faEye} title="View" style={{ marginRight: '10px', cursor: 'pointer' }} /></a><br />
+                <a href='#' ><FontAwesomeIcon icon={faTrash} title="Delete" style={{ marginRight: '10px', cursor: 'pointer' }} /></a><br />
+                <a href='#' ><FontAwesomeIcon icon={faEllipsisH} title="More Options" style={{ cursor: 'pointer' }} /></a><br />
               </td>
             </tr>
           ))}
