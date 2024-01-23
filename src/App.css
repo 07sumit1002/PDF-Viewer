@@ -1,0 +1,106 @@
+/* Add this CSS to a separate styles.css file or include it in your component */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+td:last-child {
+  text-align: center;
+}
+td:last-child .action-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for FontAwesome icons */
+.fa-eye,
+.fa-trash,
+.fa-ellipsis-h {
+  font-size: 18px;
+  color: #333;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Hover effect on icons */
+.fa-eye:hover,
+.fa-trash:hover,
+.fa-ellipsis-h:hover {
+  color: #007bff;
+}
+
+
+/* Add these styles to your existing stylesheet or create a new one */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+}
+
+.footer div {
+  display: flex;
+  align-items: center;
+}
+
+.footer select {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.footer button {
+  margin-left: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.footer span {
+  margin: 0 10px;
+}
+
+/* Optional: Style for the select dropdown arrow */
+.footer select::-ms-expand {
+  display: none;
+}
+
+.footer select {
+  appearance: none;
+  background: transparent;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23444444" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 5px top 50%;
+  background-size: 20px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+}
